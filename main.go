@@ -6,13 +6,13 @@ func main() {
 	var eus int
 	a := 0
 	k := 0
-	fmt.Print("en uzun satır : ")
-	_,err := fmt.Scanln(&eus)
+	fmt.Print("Baklava kaç satır olacak : ")
+	_, err := fmt.Scanln(&eus)
 	if err != nil {
 		fmt.Println("hatalı değer girişi")
 		return
 	}
-	if eus%2==0 {
+	if eus%2 == 0 {
 		fmt.Println("değer tek sayı olmalı")
 		return
 	}
